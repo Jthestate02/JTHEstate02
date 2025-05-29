@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Properti Impian Anda | Nama Proyek</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x900/?real-estate,building') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin: 10px 0 30px;
+    }
+    .cta-btn {
+      background: #cba135;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    .cta-btn:hover {
+      background: #b08e2e;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .property-info {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .property-info img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .property-info .text {
+      font-size: 18px;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Temukan Hunian Impian Anda</h1>
+  <p>Investasi terbaik untuk masa depan Anda, dengan lokasi strategis dan fasilitas premium.</p>
+  <a href="#kontak" class="cta-btn">Hubungi Kami</a>
+</header>
+
+<section>
+  <div class="property-info">
+    <img src="https://source.unsplash.com/900x500/?apartment,modern" alt="Proyek Real Estate">
+    <div class="text">
+      <h2>Nama Proyek Properti</h2>
+      <p>Lokasi strategis di pusat kota, dekat dengan pusat bisnis, sekolah, dan rumah sakit. Hunian ini dirancang untuk memberikan kenyamanan dan gaya hidup modern.</p>
+      <ul>
+        <li>✔️ Fasilitas Kolam Renang & Gym</li>
+        <li>✔️ Akses 24 Jam dan Keamanan CCTV</li>
+        <li>✔️ Desain Mewah & Ramah Lingkungan</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="kontak">
+  <h2 style="text-align:center">Tertarik? Hubungi Kami Sekarang!</h2>
+  <p style="text-align:center">📞 0812-XXXX-XXXX | ✉️ info@propertianda.com</p>
+</section>
+
+<footer>
+  &copy; 2025 Nama Proyek Properti. Seluruh hak cipta dilindungi.
+</footer>
+
+</body>
+</html>
